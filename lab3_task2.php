@@ -11,11 +11,11 @@
             ['name' => 'Rahma', 'email' => 'hany@test.com', 'status' => 'OS'],
         ];
 
-        echo "<table>";
+        echo '<table>';
         echo '<tr>' 
-        ."<th><h3>Name</h3></th>".
-        "<th><h3>Email</h3></th>".
-        "<th><h3>Status</h3></th>".
+        .'<th><h3>Name</h3></th>'.
+        '<th><h3>Email</h3></th>'.
+        '<th><h3>Status</h3></th>'.
          '</tr>';
         foreach ($students as $studentArr) {
             
@@ -30,7 +30,7 @@
         }
             echo '</tr>';      
     
-    echo "</table>";
+    echo '</table>';
 ?>
             
 </body>
