@@ -18,9 +18,11 @@
         "<th><h3>Status</h3></th>".
          '</tr>';
         foreach ($students as $studentArr) {
-            echo '<tr >';
+            
             if($studentArr['status']=='CMS'){
                 echo '<tr style="color:red;">';
+            }else{
+                echo '<tr >';
             }
             foreach($studentArr as $value){
                 echo '<td >' . "<h4>$value</h4>" . '</td>';
